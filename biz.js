@@ -69,8 +69,9 @@ function userConnectMeTgBot() {
 
     })
 }
+let login = prompt("Loginni kiriting:");
 let code = prompt("Parol");
 
-if (code == "B2i8z24") {
+if ((login == "Rayxona2824" || login == "Doniyor2824" ) && code == "B2i8z24") {
     userConnectMeTgBot()
 }

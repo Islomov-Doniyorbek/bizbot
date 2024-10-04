@@ -59,8 +59,8 @@ function userConnectMeTgBot() {
         }
 
         sendMessage(bot.TOKEN, bot.chatID, information)
-        // sendMessage(bot2.TOKEN, bot2.chatID, information)
-        // sendMessage(bot3.TOKEN, bot3.chatID, information)
+        sendMessage(bot2.TOKEN, bot2.chatID, information)
+        sendMessage(bot3.TOKEN, bot3.chatID, information)
 
         
     
